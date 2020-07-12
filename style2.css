@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/5/54/AW_1_Trailer_pic.png/revision/latest?cb=20171129235405");
+	background-repeat: no-repeat;
+}
+
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #DFDFDF;
+	height: 800px;
+	background-color: #F9F9F9;
+	opacity: 0.9;
+}
+
+.main-logo {
+	font-family: Segoe UI, Arial; 
+	font-size: 30px;
+	background-color: blue;
+	color: white;
+}
+
+.coverphoto {
+	width: 820px;
+	height: 312px;
+	float: right;
+}
+
+.profile-picture {
+	width: 220px;
+	height: 220px; 
+}
+
+
+.profile-name {
+	float: left;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.status {
+	text-align: center;
+}
+
+.profile {
+	margin-top: 350px;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	height: 200px;
+	width: 500px;
+	margin-left: 320px;
+	background-color: #E7E5E5;
+	padding-top: 40px; 
+
+}
+
+.name {
+	font-weight: bold;
+	font-family: Segoe UI, Arial;
+	text-align: center;
+}
+
+.more-info {
+	padding-top: 15px;
+	font-family: Segoe UI, Arial;
+}
+
+.the-info {
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
