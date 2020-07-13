@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/5/54/AW_1_Trailer_pic.png/revision/latest?cb=20171129235405");
+	background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/5/50/Wiki-background/revision/latest?cb=20190702114204");
 	background-repeat: no-repeat;
 }
 
@@ -16,7 +16,7 @@ body {
 	border: 1px solid #DFDFDF;
 	height: 800px;
 	background-color: #F9F9F9;
-	opacity: 0.9;
+	opacity: 0.98;
 }
 
 .main-logo {
@@ -35,6 +35,8 @@ body {
 .profile-picture {
 	width: 220px;
 	height: 220px; 
+	margin-left: 10px;
+	border-radius: 50%;
 }
 
 
@@ -46,17 +48,20 @@ body {
 
 .status {
 	text-align: center;
+	font-style: italic;
 }
 
 .profile {
 	margin-top: 350px;
 	text-align: center;
 	border: 1px solid #DFDFDF;
-	height: 200px;
-	width: 500px;
+	height: 400px;
+	width: 700px;
 	margin-left: 320px;
 	background-color: #E7E5E5;
 	padding-top: 40px; 
+	text-align: justify;
+	line-height: 200%;
 
 }
 
@@ -69,10 +74,28 @@ body {
 .more-info {
 	padding-top: 15px;
 	font-family: Segoe UI, Arial;
+
 }
 
 .the-info {
 	padding-top: 10px;
 	text-align: center;
 	font-weight: bold;
+	border: 1px solid #DFDFDF;
+	background-color: #E7E5E5;
+}
+
+.critical-info {
+	padding-left: 15px;
+	text-align: justify;
+}
+
+.biography::first-letter {
+	font-size: 40px;
+	font-family: serif;
+	padding-left: 10px;
+}
+
+.biography {
+	padding: 10px;
 }
