@@ -88,12 +88,14 @@ body {
 	text-align: center;
 	font-weight: bold;
 	border: 1px solid #DFDFDF;
-	background-color: #E7E5E5;
+	background-color: #CFCFCF;
+	margin-left: 11px;
 }
 
 .critical-info {
 	padding-left: 15px;
 	text-align: justify;
+	list-style-type: none;
 }
 
 .biography::first-letter {
@@ -109,7 +111,7 @@ body {
 
  .alias {
 	border: 1px solid #DFDFDF;
-	background-color: #E7E5E5;
+	background-color: #CFCFCF;
 	font-weight: bold;
 	text-align: center;
 	height: 30px;
@@ -120,11 +122,13 @@ body {
 
 .roles {
 	border: 1px solid #DFDFDF;
-	background-color: #E7E5E5;
+	background-color: #CFCFCF;
 	font-weight: bold;
 	text-align: center;
 	height: 30px;
 	margin-bottom: 10px;
 	padding-top: 10px;
-	
+}
+a:visited {
+	color: #D7219F;
 }
